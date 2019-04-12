@@ -1,0 +1,26 @@
+body{
+    background: #ECf0f1;
+}
+header{
+    background:#3A539B;
+  color: #fff;
+  padding: 10px 10px;
+  font-size: 10px;
+  font-family : 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.top{
+  margin-top : 10px;
+  margin-bottom: 5px;
+  background: #3A539B;
+  color: #fff;
+  padding: 4px 10px;
+  font-size: 10px;
+  font-family : 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+input[type=submit] {
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }

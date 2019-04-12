@@ -1,0 +1,83 @@
+/*Mengatur desain Header*/
+
+body{
+    background-image : url(BG-01-01.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  header{
+    background:#FA8072;
+    color: #fff;
+    padding: 4px 10px;
+    font-size: 20px;
+    font-family : 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  /*Mengatur footer dengan background abu-abu dan teks di tengah */
+  
+  /*Mengatur layout pada layar kecil (responsive) */
+  @media (max-width: 700px){
+    .container{
+      flex-direction: column;
+    }
+  }
+  /* Navigasi */
+  /*Membuang padding tag <ul> */
+  .menu{
+    padding: 0;
+  }
+  /*Menambah border bawah tag <li> */
+  .menu li{
+    border-bottom: 1px dotted #444;
+  
+  }
+  /*Mengatur desain menu yang dibuat dengan tag a */
+  .menu a{
+    display: block;
+    padding: 20px 20px;
+    list-style: none;
+    color: black;
+    text-decoration: none;
+  
+  }
+  /*Mengganti background menu ketika ditunjuk mouse */
+  .menu a:hover{
+    background: grey;
+  }
+  
+  
+  div.menu{
+    width: 100%;
+    background: #FA8072;
+    position: sticky;
+    top:0;
+    left: 0;
+  }
+  
+  div.menu ul{
+    list-style-type: none; /* menghilangkan bullet pada list */
+    overflow: hidden; /* menghilangkan scroll bar */
+    padding: 0; /* jarak antara border dengan konten (jarak dalam) */
+    margin: 0; /* jarak antara tiap elemen (jarak luar) */
+  }
+  
+  div.menu li{
+    float:left; /* posisi element dari kanan */
+  }
+  
+  div.menu li a{
+    text-decoration: none; /* menghilangkan garis bawah pada link */
+    color: #fff; /* warna font pada link */
+    text-align:center; /* rata tengah teks */
+    padding: 18px 20px; /* 13 untuk top & bottom, 15 untuk right & left */
+    font-size: 20px;
+    display: block; /* menampilkan elemen */
+  }
+  
+  div.menu li a:hover{ /* mouseover -> ketika mouse meraba elemen */
+    background: #fff;
+    color: grey;
+    border: 2px solid #fff;
+    /* 2px itu tebalnya, solid itu tipe garis, red itu warna border */
+  }
+  
